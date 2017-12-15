@@ -23,6 +23,7 @@ Partial Class Matching
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Matching))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox18 = New System.Windows.Forms.PictureBox()
         Me.PictureBox15 = New System.Windows.Forms.PictureBox()
@@ -88,6 +89,7 @@ Partial Class Matching
         '
         'PictureBox18
         '
+        Me.PictureBox18.Image = CType(resources.GetObject("PictureBox18.Image"), System.Drawing.Image)
         Me.PictureBox18.Location = New System.Drawing.Point(155, 44)
         Me.PictureBox18.Name = "PictureBox18"
         Me.PictureBox18.Size = New System.Drawing.Size(128, 95)
@@ -98,6 +100,7 @@ Partial Class Matching
         '
         'PictureBox15
         '
+        Me.PictureBox15.Image = CType(resources.GetObject("PictureBox15.Image"), System.Drawing.Image)
         Me.PictureBox15.Location = New System.Drawing.Point(289, 44)
         Me.PictureBox15.Name = "PictureBox15"
         Me.PictureBox15.Size = New System.Drawing.Size(128, 95)
@@ -108,6 +111,7 @@ Partial Class Matching
         '
         'PictureBox14
         '
+        Me.PictureBox14.Image = CType(resources.GetObject("PictureBox14.Image"), System.Drawing.Image)
         Me.PictureBox14.Location = New System.Drawing.Point(557, 44)
         Me.PictureBox14.Name = "PictureBox14"
         Me.PictureBox14.Size = New System.Drawing.Size(128, 95)
@@ -118,6 +122,7 @@ Partial Class Matching
         '
         'PictureBox17
         '
+        Me.PictureBox17.Image = CType(resources.GetObject("PictureBox17.Image"), System.Drawing.Image)
         Me.PictureBox17.Location = New System.Drawing.Point(424, 44)
         Me.PictureBox17.Name = "PictureBox17"
         Me.PictureBox17.Size = New System.Drawing.Size(128, 95)
@@ -128,6 +133,7 @@ Partial Class Matching
         '
         'PictureBox20
         '
+        Me.PictureBox20.Image = CType(resources.GetObject("PictureBox20.Image"), System.Drawing.Image)
         Me.PictureBox20.Location = New System.Drawing.Point(290, 145)
         Me.PictureBox20.Name = "PictureBox20"
         Me.PictureBox20.Size = New System.Drawing.Size(128, 95)
@@ -138,6 +144,7 @@ Partial Class Matching
         '
         'PictureBox16
         '
+        Me.PictureBox16.Image = CType(resources.GetObject("PictureBox16.Image"), System.Drawing.Image)
         Me.PictureBox16.Location = New System.Drawing.Point(156, 145)
         Me.PictureBox16.Name = "PictureBox16"
         Me.PictureBox16.Size = New System.Drawing.Size(128, 95)
@@ -148,6 +155,7 @@ Partial Class Matching
         '
         'PictureBox19
         '
+        Me.PictureBox19.Image = CType(resources.GetObject("PictureBox19.Image"), System.Drawing.Image)
         Me.PictureBox19.Location = New System.Drawing.Point(21, 145)
         Me.PictureBox19.Name = "PictureBox19"
         Me.PictureBox19.Size = New System.Drawing.Size(128, 95)
@@ -158,6 +166,7 @@ Partial Class Matching
         '
         'PictureBox13
         '
+        Me.PictureBox13.Image = CType(resources.GetObject("PictureBox13.Image"), System.Drawing.Image)
         Me.PictureBox13.Location = New System.Drawing.Point(424, 145)
         Me.PictureBox13.Name = "PictureBox13"
         Me.PictureBox13.Size = New System.Drawing.Size(128, 95)
@@ -168,6 +177,7 @@ Partial Class Matching
         '
         'picSelect1
         '
+        Me.picSelect1.Image = CType(resources.GetObject("picSelect1.Image"), System.Drawing.Image)
         Me.picSelect1.Location = New System.Drawing.Point(21, 44)
         Me.picSelect1.Name = "picSelect1"
         Me.picSelect1.Size = New System.Drawing.Size(128, 95)
@@ -178,6 +188,7 @@ Partial Class Matching
         '
         'PictureBox1
         '
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
         Me.PictureBox1.Location = New System.Drawing.Point(21, 44)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(128, 95)
@@ -187,6 +198,7 @@ Partial Class Matching
         '
         'PictureBox3
         '
+        Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
         Me.PictureBox3.Location = New System.Drawing.Point(558, 145)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(128, 95)
@@ -197,6 +209,7 @@ Partial Class Matching
         '
         'PictureBox4
         '
+        Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
         Me.PictureBox4.Location = New System.Drawing.Point(424, 145)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(128, 95)
@@ -206,6 +219,7 @@ Partial Class Matching
         '
         'PictureBox5
         '
+        Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
         Me.PictureBox5.Location = New System.Drawing.Point(424, 44)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(128, 95)
@@ -215,6 +229,7 @@ Partial Class Matching
         '
         'PictureBox6
         '
+        Me.PictureBox6.Image = CType(resources.GetObject("PictureBox6.Image"), System.Drawing.Image)
         Me.PictureBox6.Location = New System.Drawing.Point(156, 145)
         Me.PictureBox6.Name = "PictureBox6"
         Me.PictureBox6.Size = New System.Drawing.Size(128, 95)
@@ -224,6 +239,7 @@ Partial Class Matching
         '
         'PictureBox7
         '
+        Me.PictureBox7.Image = CType(resources.GetObject("PictureBox7.Image"), System.Drawing.Image)
         Me.PictureBox7.Location = New System.Drawing.Point(290, 145)
         Me.PictureBox7.Name = "PictureBox7"
         Me.PictureBox7.Size = New System.Drawing.Size(128, 95)
@@ -233,6 +249,7 @@ Partial Class Matching
         '
         'PictureBox8
         '
+        Me.PictureBox8.Image = CType(resources.GetObject("PictureBox8.Image"), System.Drawing.Image)
         Me.PictureBox8.Location = New System.Drawing.Point(290, 44)
         Me.PictureBox8.Name = "PictureBox8"
         Me.PictureBox8.Size = New System.Drawing.Size(128, 95)
@@ -242,6 +259,7 @@ Partial Class Matching
         '
         'PictureBox9
         '
+        Me.PictureBox9.Image = CType(resources.GetObject("PictureBox9.Image"), System.Drawing.Image)
         Me.PictureBox9.Location = New System.Drawing.Point(22, 145)
         Me.PictureBox9.Name = "PictureBox9"
         Me.PictureBox9.Size = New System.Drawing.Size(128, 95)
@@ -251,6 +269,7 @@ Partial Class Matching
         '
         'PictureBox10
         '
+        Me.PictureBox10.Image = CType(resources.GetObject("PictureBox10.Image"), System.Drawing.Image)
         Me.PictureBox10.Location = New System.Drawing.Point(558, 44)
         Me.PictureBox10.Name = "PictureBox10"
         Me.PictureBox10.Size = New System.Drawing.Size(128, 95)
@@ -260,7 +279,8 @@ Partial Class Matching
         '
         'PictureBox11
         '
-        Me.PictureBox11.Location = New System.Drawing.Point(558, 145)
+        Me.PictureBox11.Image = CType(resources.GetObject("PictureBox11.Image"), System.Drawing.Image)
+        Me.PictureBox11.Location = New System.Drawing.Point(557, 145)
         Me.PictureBox11.Name = "PictureBox11"
         Me.PictureBox11.Size = New System.Drawing.Size(128, 95)
         Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -269,7 +289,8 @@ Partial Class Matching
         '
         'PictureBox12
         '
-        Me.PictureBox12.Location = New System.Drawing.Point(156, 44)
+        Me.PictureBox12.Image = CType(resources.GetObject("PictureBox12.Image"), System.Drawing.Image)
+        Me.PictureBox12.Location = New System.Drawing.Point(155, 44)
         Me.PictureBox12.Name = "PictureBox12"
         Me.PictureBox12.Size = New System.Drawing.Size(128, 95)
         Me.PictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage

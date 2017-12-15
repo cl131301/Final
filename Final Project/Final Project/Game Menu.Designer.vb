@@ -53,7 +53,7 @@ Partial Class Game_Menu
         Me.btnLionsTigersBears.Name = "btnLionsTigersBears"
         Me.btnLionsTigersBears.Size = New System.Drawing.Size(82, 38)
         Me.btnLionsTigersBears.TabIndex = 2
-        Me.btnLionsTigersBears.Text = "Lions, Tigers, and Bears"
+        Me.btnLionsTigersBears.Text = "Lions, Tigers, Bears"
         Me.btnLionsTigersBears.UseVisualStyleBackColor = True
         '
         'btnGameOfLuck
@@ -62,7 +62,7 @@ Partial Class Game_Menu
         Me.btnGameOfLuck.Name = "btnGameOfLuck"
         Me.btnGameOfLuck.Size = New System.Drawing.Size(82, 35)
         Me.btnGameOfLuck.TabIndex = 3
-        Me.btnGameOfLuck.Text = "Button4"
+        Me.btnGameOfLuck.Text = "Game of Luck"
         Me.btnGameOfLuck.UseVisualStyleBackColor = True
         '
         'Label1
