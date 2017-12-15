@@ -21,12 +21,11 @@
         PicSelect(8) = PicSelect9
         PicSelect(9) = PicSelect10
 
-        picCardBack(0) = 
-
-
     End Sub
 
-    Private Sub PictureBox9_Click(sender As Object, e As EventArgs) Handles PicCardBack1.Click
+    Private Sub BtnStart_Click(sender As Object, e As EventArgs) Handles BtnStart.Click
 
+    Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
+        Me.Close()
     End Sub
 End Class

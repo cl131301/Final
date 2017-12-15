@@ -220,7 +220,7 @@ Partial Class Form1
         'PicCardBack10
         '
         Me.PicCardBack10.Image = CType(resources.GetObject("PicCardBack10.Image"), System.Drawing.Image)
-        Me.PicCardBack10.Location = New System.Drawing.Point(558, 216)
+        Me.PicCardBack10.Location = New System.Drawing.Point(558, 145)
         Me.PicCardBack10.Name = "PicCardBack10"
         Me.PicCardBack10.Size = New System.Drawing.Size(128, 95)
         Me.PicCardBack10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -260,7 +260,7 @@ Partial Class Form1
         'PicCardBack1
         '
         Me.PicCardBack1.Image = CType(resources.GetObject("PicCardBack1.Image"), System.Drawing.Image)
-        Me.PicCardBack1.Location = New System.Drawing.Point(21, 44)
+        Me.PicCardBack1.Location = New System.Drawing.Point(22, 44)
         Me.PicCardBack1.Name = "PicCardBack1"
         Me.PicCardBack1.Size = New System.Drawing.Size(128, 95)
         Me.PicCardBack1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -270,7 +270,7 @@ Partial Class Form1
         'PicCardBack2
         '
         Me.PicCardBack2.Image = CType(resources.GetObject("PicCardBack2.Image"), System.Drawing.Image)
-        Me.PicCardBack2.Location = New System.Drawing.Point(424, 145)
+        Me.PicCardBack2.Location = New System.Drawing.Point(422, 145)
         Me.PicCardBack2.Name = "PicCardBack2"
         Me.PicCardBack2.Size = New System.Drawing.Size(128, 95)
         Me.PicCardBack2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
