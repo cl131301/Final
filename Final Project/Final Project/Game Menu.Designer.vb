@@ -22,8 +22,16 @@ Partial Class Game_Menu
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container
+        Me.SuspendLayout()
+        '
+        'Game_Menu
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(385, 369)
+        Me.Name = "Game_Menu"
         Me.Text = "Game_Menu"
+        Me.ResumeLayout(False)
+
     End Sub
 End Class
