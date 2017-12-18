@@ -76,6 +76,24 @@
     <Compile Include="Game Menu.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Game of Luck.Designer.vb">
+      <DependentUpon>Game of Luck.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Game of Luck.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Horse Race.Designer.vb">
+      <DependentUpon>Horse Race.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Horse Race.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lions, Tigers, Bears.Designer.vb">
+      <DependentUpon>Lions, Tigers, Bears.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Lions, Tigers, Bears.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Matching.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +120,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Game Menu.resx">
       <DependentUpon>Game Menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lions, Tigers, Bears.resx">
+      <DependentUpon>Lions, Tigers, Bears.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Matching.resx">
       <DependentUpon>Matching.vb</DependentUpon>
