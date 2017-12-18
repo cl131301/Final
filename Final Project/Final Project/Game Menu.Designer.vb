@@ -80,14 +80,13 @@ Partial Class Game_Menu
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(435, 425)
+        Me.ClientSize = New System.Drawing.Size(444, 425)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnGameOfLuck)
         Me.Controls.Add(Me.btnLionsTigersBears)
         Me.Controls.Add(Me.btnHorseRace)
         Me.Controls.Add(Me.btnMatching)
         Me.Name = "Game_Menu"
-        Me.Text = "Game_Menu"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
