@@ -343,6 +343,10 @@ Partial Class Matching
         Me.btnStop.Text = "Stop"
         Me.btnStop.UseVisualStyleBackColor = True
         '
+        'Timer1
+        '
+        Me.Timer1.Interval = 20
+        '
         'lblNi
         '
         Me.lblNi.AutoSize = True
