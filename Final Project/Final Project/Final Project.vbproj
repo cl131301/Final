@@ -121,6 +121,12 @@
     <EmbeddedResource Include="Game Menu.resx">
       <DependentUpon>Game Menu.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Game of Luck.resx">
+      <DependentUpon>Game of Luck.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Horse Race.resx">
+      <DependentUpon>Horse Race.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Lions, Tigers, Bears.resx">
       <DependentUpon>Lions, Tigers, Bears.vb</DependentUpon>
     </EmbeddedResource>
@@ -145,6 +151,35 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\4cf27705c2b64762466c0a874410c03d.jpg" />
+    <Content Include="Resources\Bear.jpg" />
+    <Content Include="Resources\cceb5f5cdcdb81786cc86d8e6b832658--small-pigs-baby-piglets.jpg" />
+    <Content Include="Resources\download %281%29.jpg" />
+    <Content Include="Resources\download %282%29.jpg" />
+    <Content Include="Resources\download.jpg" />
+    <Content Include="Resources\duckling.jpg" />
+    <Content Include="Resources\Elephant.jpg" />
+    <Content Include="Resources\f580e2489215488d44d94e377384707f.jpg" />
+    <Content Include="Resources\fluffy-orange-beautiful-kitten-isolated-white-background-52071903.jpg" />
+    <Content Include="Resources\Fox.jpg" />
+    <Content Include="Resources\images %281%29.jpg" />
+    <Content Include="Resources\images.jpg" />
+    <Content Include="Resources\IMG_0308.jpg" />
+    <Content Include="Resources\IMG_0309.jpg" />
+    <Content Include="Resources\IMG_0310.jpg" />
+    <Content Include="Resources\IMG_0311.jpg" />
+    <Content Include="Resources\IMG_0312.jpg" />
+    <Content Include="Resources\kinder-farm-park-barn_2_pyramid.jpg" />
+    <Content Include="Resources\Lady bug.jpg" />
+    <Content Include="Resources\Lion.jpg" />
+    <Content Include="Resources\Owl.jpg" />
+    <Content Include="Resources\PUP_03_RK0221_01_P.JPG" />
+    <Content Include="Resources\Tiger.jpg" />
+    <Content Include="Resources\tmp592173530683015168.jpg" />
+    <Content Include="Resources\Toad.jpg" />
+    <Content Include="Resources\White bunny.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

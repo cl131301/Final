@@ -22,8 +22,16 @@ Partial Class Game_of_Luck
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container
+        Me.SuspendLayout()
+        '
+        'Game_of_Luck
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(895, 388)
+        Me.Name = "Game_of_Luck"
         Me.Text = "Game_of_Luck"
+        Me.ResumeLayout(False)
+
     End Sub
 End Class
