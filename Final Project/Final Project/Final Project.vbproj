@@ -94,11 +94,11 @@
     <Compile Include="Lions, Tigers, Bears.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Matching.vb">
+    <Compile Include="Pets Owned.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Matching.Designer.vb">
-      <DependentUpon>Matching.vb</DependentUpon>
+    <Compile Include="Pets Owned.Designer.vb">
+      <DependentUpon>Pets Owned.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -130,8 +130,8 @@
     <EmbeddedResource Include="Lions, Tigers, Bears.resx">
       <DependentUpon>Lions, Tigers, Bears.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Matching.resx">
-      <DependentUpon>Matching.vb</DependentUpon>
+    <EmbeddedResource Include="Pets Owned.resx">
+      <DependentUpon>Pets Owned.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

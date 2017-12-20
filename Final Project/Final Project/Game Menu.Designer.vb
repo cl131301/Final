@@ -35,7 +35,7 @@ Partial Class Game_Menu
         Me.btnMatching.Name = "btnMatching"
         Me.btnMatching.Size = New System.Drawing.Size(82, 37)
         Me.btnMatching.TabIndex = 0
-        Me.btnMatching.Text = "Animal Matching "
+        Me.btnMatching.Text = "Pets Owned "
         Me.btnMatching.UseVisualStyleBackColor = True
         '
         'btnHorseRace
