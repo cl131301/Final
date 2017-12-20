@@ -175,6 +175,7 @@
     <Content Include="Resources\Lady bug.jpg" />
     <Content Include="Resources\Lion.jpg" />
     <Content Include="Resources\Owl.jpg" />
+    <None Include="Resources\pets-family-friend-newborn-baby-sonny-fb.png" />
     <Content Include="Resources\PUP_03_RK0221_01_P.JPG" />
     <Content Include="Resources\Tiger.jpg" />
     <Content Include="Resources\tmp592173530683015168.jpg" />
