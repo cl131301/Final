@@ -95,7 +95,7 @@ Partial Class Matching
         Me.Controls.Add(Me.btnAverage)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Matching"
-        Me.Text = "Final Project"
+        Me.Text = "Pets Owned"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
