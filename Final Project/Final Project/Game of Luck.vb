@@ -1,4 +1,9 @@
 ﻿Public Class Game_of_Luck
+    Dim startSoundSystembunny As New System.Media.SoundPlayer("C:\Users\cl131301\Desktop\GitHub Repo\Final\Final Project\Final Project\Resources\Wow What a relief.mp3")
+    Dim startSoundSystemElephant As New System.Media.SoundPlayer("")
+    Dim startSoundSystemFox As New System.Media.SoundPlayer("")
+    Dim startSoundSystemOwl As New System.Media.SoundPlayer("C:\Users\cl131301\Desktop\GitHub Repo\Final\Final Project\Final Project\Resources\owl animals074.wav")
+    Dim startSoundSystemPig As New System.Media.SoundPlayer("C:\Users\cl131301\Desktop\GitHub Repo\Final\Final Project\Final Project\Resources\Hog gruntsanimals062.wav")
 
     Private Sub btnSpin_Click(sender As Object, e As EventArgs) Handles btnSpin.Click
         Dim num As Integer ' variable to hold random number
