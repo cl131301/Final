@@ -24,7 +24,7 @@ Partial Class Racing_Money
     Private Sub InitializeComponent()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Label9 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.txtBet = New System.Windows.Forms.TextBox()
         Me.btnReset = New System.Windows.Forms.Button()
         Me.btnBet = New System.Windows.Forms.Button()
         Me.rbKona = New System.Windows.Forms.RadioButton()
@@ -32,23 +32,15 @@ Partial Class Racing_Money
         Me.rbSecertariat = New System.Windows.Forms.RadioButton()
         Me.rbBarbaro = New System.Windows.Forms.RadioButton()
         Me.rbZenyetta = New System.Windows.Forms.RadioButton()
+        Me.lblMoney = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.lblCalifornia = New System.Windows.Forms.Label()
-        Me.lblBarbaro = New System.Windows.Forms.Label()
-        Me.lblZenyetta = New System.Windows.Forms.Label()
-        Me.lblSecertariat = New System.Windows.Forms.Label()
-        Me.lblKona = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
         'GroupBox1
         '
         Me.GroupBox1.Controls.Add(Me.Label9)
-        Me.GroupBox1.Controls.Add(Me.TextBox1)
+        Me.GroupBox1.Controls.Add(Me.txtBet)
         Me.GroupBox1.Controls.Add(Me.btnReset)
         Me.GroupBox1.Controls.Add(Me.btnBet)
         Me.GroupBox1.Controls.Add(Me.rbKona)
@@ -56,7 +48,7 @@ Partial Class Racing_Money
         Me.GroupBox1.Controls.Add(Me.rbSecertariat)
         Me.GroupBox1.Controls.Add(Me.rbBarbaro)
         Me.GroupBox1.Controls.Add(Me.rbZenyetta)
-        Me.GroupBox1.Location = New System.Drawing.Point(120, 44)
+        Me.GroupBox1.Location = New System.Drawing.Point(44, 33)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(389, 207)
         Me.GroupBox1.TabIndex = 70
@@ -72,12 +64,12 @@ Partial Class Racing_Money
         Me.Label9.TabIndex = 62
         Me.Label9.Text = "Enter the amount you're betting:"
         '
-        'TextBox1
+        'txtBet
         '
-        Me.TextBox1.Location = New System.Drawing.Point(249, 72)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox1.TabIndex = 61
+        Me.txtBet.Location = New System.Drawing.Point(249, 72)
+        Me.txtBet.Name = "txtBet"
+        Me.txtBet.Size = New System.Drawing.Size(100, 20)
+        Me.txtBet.TabIndex = 61
         '
         'btnReset
         '
@@ -152,112 +144,31 @@ Partial Class Racing_Money
         Me.rbZenyetta.Text = "Zenyetta"
         Me.rbZenyetta.UseVisualStyleBackColor = True
         '
+        'lblMoney
+        '
+        Me.lblMoney.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblMoney.Location = New System.Drawing.Point(224, 295)
+        Me.lblMoney.Name = "lblMoney"
+        Me.lblMoney.Size = New System.Drawing.Size(100, 23)
+        Me.lblMoney.TabIndex = 62
+        '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(117, 426)
+        Me.Label1.Location = New System.Drawing.Point(162, 305)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(63, 16)
-        Me.Label1.TabIndex = 69
-        Me.Label1.Text = "Zenyetta:"
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(103, 386)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(76, 16)
-        Me.Label7.TabIndex = 68
-        Me.Label7.Text = "Secertariat:"
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(93, 338)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(100, 16)
-        Me.Label8.TabIndex = 67
-        Me.Label8.Text = "Kona's Kannon:"
-        '
-        'lblCalifornia
-        '
-        Me.lblCalifornia.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblCalifornia.Location = New System.Drawing.Point(490, 419)
-        Me.lblCalifornia.Name = "lblCalifornia"
-        Me.lblCalifornia.Size = New System.Drawing.Size(100, 23)
-        Me.lblCalifornia.TabIndex = 66
-        '
-        'lblBarbaro
-        '
-        Me.lblBarbaro.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblBarbaro.Location = New System.Drawing.Point(490, 379)
-        Me.lblBarbaro.Name = "lblBarbaro"
-        Me.lblBarbaro.Size = New System.Drawing.Size(100, 23)
-        Me.lblBarbaro.TabIndex = 65
-        '
-        'lblZenyetta
-        '
-        Me.lblZenyetta.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblZenyetta.Location = New System.Drawing.Point(199, 426)
-        Me.lblZenyetta.Name = "lblZenyetta"
-        Me.lblZenyetta.Size = New System.Drawing.Size(100, 23)
-        Me.lblZenyetta.TabIndex = 64
-        '
-        'lblSecertariat
-        '
-        Me.lblSecertariat.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblSecertariat.Location = New System.Drawing.Point(199, 386)
-        Me.lblSecertariat.Name = "lblSecertariat"
-        Me.lblSecertariat.Size = New System.Drawing.Size(100, 23)
-        Me.lblSecertariat.TabIndex = 63
-        '
-        'lblKona
-        '
-        Me.lblKona.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblKona.Location = New System.Drawing.Point(199, 339)
-        Me.lblKona.Name = "lblKona"
-        Me.lblKona.Size = New System.Drawing.Size(100, 23)
-        Me.lblKona.TabIndex = 62
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(358, 419)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(117, 16)
-        Me.Label5.TabIndex = 61
-        Me.Label5.Text = "California Chrome:"
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(415, 379)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(60, 16)
-        Me.Label4.TabIndex = 60
-        Me.Label4.Text = "Barbaro:"
+        Me.Label1.Size = New System.Drawing.Size(42, 13)
+        Me.Label1.TabIndex = 71
+        Me.Label1.Text = "Money:"
         '
         'Racing_Money
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(682, 493)
-        Me.Controls.Add(Me.GroupBox1)
+        Me.ClientSize = New System.Drawing.Size(480, 391)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.Label8)
-        Me.Controls.Add(Me.lblCalifornia)
-        Me.Controls.Add(Me.lblBarbaro)
-        Me.Controls.Add(Me.lblZenyetta)
-        Me.Controls.Add(Me.lblSecertariat)
-        Me.Controls.Add(Me.lblKona)
-        Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.GroupBox1)
+        Me.Controls.Add(Me.lblMoney)
         Me.Name = "Racing_Money"
         Me.Text = "Racing_Money"
         Me.GroupBox1.ResumeLayout(False)
@@ -268,7 +179,7 @@ Partial Class Racing_Money
     End Sub
     Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
     Friend WithEvents Label9 As System.Windows.Forms.Label
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents txtBet As System.Windows.Forms.TextBox
     Friend WithEvents btnReset As System.Windows.Forms.Button
     Friend WithEvents btnBet As System.Windows.Forms.Button
     Friend WithEvents rbKona As System.Windows.Forms.RadioButton
@@ -276,14 +187,6 @@ Partial Class Racing_Money
     Friend WithEvents rbSecertariat As System.Windows.Forms.RadioButton
     Friend WithEvents rbBarbaro As System.Windows.Forms.RadioButton
     Friend WithEvents rbZenyetta As System.Windows.Forms.RadioButton
+    Friend WithEvents lblMoney As System.Windows.Forms.Label
     Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents Label7 As System.Windows.Forms.Label
-    Friend WithEvents Label8 As System.Windows.Forms.Label
-    Friend WithEvents lblCalifornia As System.Windows.Forms.Label
-    Friend WithEvents lblBarbaro As System.Windows.Forms.Label
-    Friend WithEvents lblZenyetta As System.Windows.Forms.Label
-    Friend WithEvents lblSecertariat As System.Windows.Forms.Label
-    Friend WithEvents lblKona As System.Windows.Forms.Label
-    Friend WithEvents Label5 As System.Windows.Forms.Label
-    Friend WithEvents Label4 As System.Windows.Forms.Label
 End Class
