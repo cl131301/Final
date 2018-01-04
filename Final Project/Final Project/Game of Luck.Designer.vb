@@ -141,7 +141,7 @@ Partial Class Game_of_Luck
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(542, 558)
+        Me.ClientSize = New System.Drawing.Size(576, 540)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnSpinAgain)
         Me.Controls.Add(Me.btnExit)

@@ -166,15 +166,18 @@
     <Content Include="Resources\bear-roar.wav" />
     <Content Include="Resources\Bear.jpg" />
     <Content Include="Resources\brasswoodwinds-musical-instruments-trumpet-charge-horse-race-01.wav" />
+    <Content Include="Resources\bugs_dope.wav" />
     <Content Include="Resources\cceb5f5cdcdb81786cc86d8e6b832658--small-pigs-baby-piglets.jpg" />
     <Content Include="Resources\download %281%29.jpg" />
     <Content Include="Resources\download %282%29.jpg" />
     <Content Include="Resources\download.jpg" />
     <Content Include="Resources\duckling.jpg" />
     <Content Include="Resources\Elephant.jpg" />
+    <Content Include="Resources\elephant9.wav" />
     <Content Include="Resources\f580e2489215488d44d94e377384707f.jpg" />
     <Content Include="Resources\fluffy-orange-beautiful-kitten-isolated-white-background-52071903.jpg" />
     <Content Include="Resources\Fox.jpg" />
+    <Content Include="Resources\greyfox-vs-coon.wav" />
     <Content Include="Resources\Hog gruntsanimals062.wav" />
     <Content Include="Resources\images %281%29.jpg" />
     <Content Include="Resources\images.jpg" />
@@ -188,7 +191,6 @@
     <Content Include="Resources\Lion.jpg" />
     <Content Include="Resources\owl animals074.wav" />
     <Content Include="Resources\Owl.jpg" />
-    <Content Include="Resources\Wow What a relief.mp3" />
     <None Include="Resources\pets-family-friend-newborn-baby-sonny-fb.png" />
     <Content Include="Resources\PUP_03_RK0221_01_P.JPG" />
     <Content Include="Resources\Tiger growl animals026.wav" />
