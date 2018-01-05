@@ -45,6 +45,9 @@
   <PropertyGroup>
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>pets.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -153,6 +156,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="pets.ico" />
     <Content Include="Resources\4cf27705c2b64762466c0a874410c03d.jpg" />
     <Content Include="Resources\Bear.jpg" />
     <Content Include="Resources\cceb5f5cdcdb81786cc86d8e6b832658--small-pigs-baby-piglets.jpg" />
