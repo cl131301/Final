@@ -122,6 +122,12 @@
     <Compile Include="Racing Money.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Types of pets owned.Designer.vb">
+      <DependentUpon>Types of pets owned.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Types of pets owned.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Game Menu.resx">
@@ -147,6 +153,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Racing Money.resx">
       <DependentUpon>Racing Money.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Types of pets owned.resx">
+      <DependentUpon>Types of pets owned.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

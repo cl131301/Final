@@ -27,6 +27,7 @@ Partial Class Game_Menu
         Me.btnLionsTigersBears = New System.Windows.Forms.Button()
         Me.btnGameOfLuck = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnMatching
@@ -40,7 +41,7 @@ Partial Class Game_Menu
         '
         'btnHorseRace
         '
-        Me.btnHorseRace.Location = New System.Drawing.Point(180, 182)
+        Me.btnHorseRace.Location = New System.Drawing.Point(180, 180)
         Me.btnHorseRace.Name = "btnHorseRace"
         Me.btnHorseRace.Size = New System.Drawing.Size(82, 41)
         Me.btnHorseRace.TabIndex = 1
@@ -49,7 +50,7 @@ Partial Class Game_Menu
         '
         'btnLionsTigersBears
         '
-        Me.btnLionsTigersBears.Location = New System.Drawing.Point(180, 254)
+        Me.btnLionsTigersBears.Location = New System.Drawing.Point(180, 243)
         Me.btnLionsTigersBears.Name = "btnLionsTigersBears"
         Me.btnLionsTigersBears.Size = New System.Drawing.Size(82, 38)
         Me.btnLionsTigersBears.TabIndex = 2
@@ -58,9 +59,9 @@ Partial Class Game_Menu
         '
         'btnGameOfLuck
         '
-        Me.btnGameOfLuck.Location = New System.Drawing.Point(180, 318)
+        Me.btnGameOfLuck.Location = New System.Drawing.Point(180, 304)
         Me.btnGameOfLuck.Name = "btnGameOfLuck"
-        Me.btnGameOfLuck.Size = New System.Drawing.Size(82, 35)
+        Me.btnGameOfLuck.Size = New System.Drawing.Size(82, 41)
         Me.btnGameOfLuck.TabIndex = 3
         Me.btnGameOfLuck.Text = "Game of Luck"
         Me.btnGameOfLuck.UseVisualStyleBackColor = True
@@ -75,12 +76,22 @@ Partial Class Game_Menu
         Me.Label1.TabIndex = 4
         Me.Label1.Text = "Animal Games"
         '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(180, 366)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(82, 35)
+        Me.Button1.TabIndex = 5
+        Me.Button1.Text = "Types of Pets Owned"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'Game_Menu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Gray
         Me.ClientSize = New System.Drawing.Size(444, 425)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnGameOfLuck)
         Me.Controls.Add(Me.btnLionsTigersBears)
@@ -96,4 +107,5 @@ Partial Class Game_Menu
     Friend WithEvents btnLionsTigersBears As System.Windows.Forms.Button
     Friend WithEvents btnGameOfLuck As System.Windows.Forms.Button
     Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents Button1 As System.Windows.Forms.Button
 End Class
