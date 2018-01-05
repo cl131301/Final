@@ -22,6 +22,7 @@ Partial Class Game_Menu
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Game_Menu))
         Me.btnMatching = New System.Windows.Forms.Button()
         Me.btnHorseRace = New System.Windows.Forms.Button()
         Me.btnLionsTigersBears = New System.Windows.Forms.Button()
@@ -97,6 +98,7 @@ Partial Class Game_Menu
         Me.Controls.Add(Me.btnLionsTigersBears)
         Me.Controls.Add(Me.btnHorseRace)
         Me.Controls.Add(Me.btnMatching)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Game_Menu"
         Me.ResumeLayout(False)
         Me.PerformLayout()
