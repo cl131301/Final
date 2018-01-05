@@ -10,17 +10,19 @@
         Dim intcount, intcount1, intcount2, intcount3, intcount4 As Integer
         Dim rand As New Random
         Dim startSoundSystemRace As New System.Media.SoundPlayer("C:\Users\cl131301\Desktop\GitHub Repo\Final\Final Project\Final Project\Resources\brasswoodwinds-musical-instruments-trumpet-charge-horse-race-01.wav")
-
+        'horse named kona movement'
         IntWinner = rand.Next(4)
         startSoundSystemRace.Play()
         For intcount = 185 To rand.Next(50) + 693
             PicKonasKannon.Left = intcount
             'KonaResult = KonaResult + 1
         Next
+        'horse named secertariat movement'
         For intcount1 = 185 To rand.Next(50) + 693
             PicSecertariat.Left = intcount1
             'SecertariatResult = SecertariatResult + 1
         Next
+        'barbaro's movement'
         For intcount2 = 185 To rand.Next(50) + 693
             PicBarbaro.Left = intcount2
             ' BarbaroResult = BarbaroResult + 1
@@ -29,10 +31,12 @@
             PicCaliforniaCrome.Left = intcount3
             'CaliforniaResult = CaliforniaResult + 1
         Next
+        'zenyetta's movement'
         For intcount4 = 185 To rand.Next(50) + 693
             PicZenyetta.Left = intcount4
             'ZenyettaResult = ZenyettaResult + 1
         Next
+        'keeping score for horse that wins'
         If intcount > intcount1 And intcount2 And intcount3 And intcount4 Then
             KonaResult = KonaResult + 1
         ElseIf intcount1 > intcount And intcount2 And intcount3 And intcount4 Then
@@ -52,10 +56,5 @@
     End Sub
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
         Me.Close()
-    End Sub
-
-    Private Sub btnPlaceBet_Click(sender As Object, e As EventArgs) Handles btnPlaceBet.Click
-        Dim box = New Racing_Money
-        box.Show()
     End Sub
 End Class

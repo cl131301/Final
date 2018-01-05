@@ -7,15 +7,17 @@
         Dim dblAverage As Double
         Dim strInput As String
         Dim intCount As Integer = 1
-
+        'staring when you choose how many owners you wants to average.'
         strInput = InputBox("How many owners do you want to average?")
         If Integer.TryParse(strInput, intNumAverage) Then
             Do Until intCount > intNumAverage
+                'Amount of animals owned by each owner.'
                 strInput = InputBox("Enter amount of aniamls owned " & intCount.ToString())
                 If Double.TryParse(strInput, dblPetsOwned) Then
                     dblTotal += dblPetsOwned
                     intCount += 1
                 Else
+                    'Invailid numbers such as decimals or fractions.'
                     MessageBox.Show("Enter a valid number of animals owned.")
                 End If
             Loop

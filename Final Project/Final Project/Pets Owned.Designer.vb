@@ -49,7 +49,7 @@ Partial Class Matching
         'btnAverage
         '
         Me.btnAverage.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAverage.Location = New System.Drawing.Point(49, 113)
+        Me.btnAverage.Location = New System.Drawing.Point(16, 113)
         Me.btnAverage.Name = "btnAverage"
         Me.btnAverage.Size = New System.Drawing.Size(90, 75)
         Me.btnAverage.TabIndex = 2
@@ -59,7 +59,7 @@ Partial Class Matching
         'btnExit
         '
         Me.btnExit.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnExit.Location = New System.Drawing.Point(205, 113)
+        Me.btnExit.Location = New System.Drawing.Point(228, 113)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(89, 75)
         Me.btnExit.TabIndex = 3
