@@ -1,6 +1,8 @@
 ﻿Public Class Lions__Tigers__Bears
     Dim winCount As Integer = 0
     Dim compCount As Integer = 0
+    Dim startSoundSystemLion As New System.Media.SoundPlayer("http://www.animal-sounds.org/jungle/Lioness%20growl%20animals109.wav")
+
     Private Sub btnGo_Click(sender As Object, e As EventArgs) Handles btnGo.Click
         Dim num As Integer ' variable to hold random number (computer choice)
         Const LION = 1  'This would be rock
@@ -37,9 +39,15 @@
 
         lblPlayerScore.Text = winCount
         lblComputerScore.Text = compCount
+        If lionRadioButton.Checked Then startSoundSystemLion.Play()
+
     End Sub
 
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
         Me.Close()
+    End Sub
+
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+
     End Sub
 End Class
