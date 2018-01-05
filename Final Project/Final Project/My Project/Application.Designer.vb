@@ -32,6 +32,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
+            Me.MainForm = Global.Final_Project.Game_Menu
             Me.MainForm = Global.Final_Project.Types_of_pets_owned
         End Sub
     End Class
