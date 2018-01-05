@@ -19,4 +19,9 @@
         Dim box = New Game_of_Luck
         box.Show()
     End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim box = New Types_of_Pets_Owned
+        box.show()
+    End Sub
 End Class
