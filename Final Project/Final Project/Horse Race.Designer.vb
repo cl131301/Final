@@ -41,7 +41,6 @@ Partial Class Horse_Race
         Me.PicBarbaro = New System.Windows.Forms.PictureBox()
         Me.PicSecertariat = New System.Windows.Forms.PictureBox()
         Me.PicKonasKannon = New System.Windows.Forms.PictureBox()
-        Me.btnPlaceBet = New System.Windows.Forms.Button()
         CType(Me.PicZenyetta, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PicCaliforniaCrome, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PicBarbaro, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -218,22 +217,12 @@ Partial Class Horse_Race
         Me.PicKonasKannon.TabIndex = 18
         Me.PicKonasKannon.TabStop = False
         '
-        'btnPlaceBet
-        '
-        Me.btnPlaceBet.Location = New System.Drawing.Point(709, 595)
-        Me.btnPlaceBet.Name = "btnPlaceBet"
-        Me.btnPlaceBet.Size = New System.Drawing.Size(91, 25)
-        Me.btnPlaceBet.TabIndex = 36
-        Me.btnPlaceBet.Text = "Place Bet"
-        Me.btnPlaceBet.UseVisualStyleBackColor = True
-        '
         'Horse_Race
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.BurlyWood
-        Me.ClientSize = New System.Drawing.Size(826, 632)
-        Me.Controls.Add(Me.btnPlaceBet)
+        Me.ClientSize = New System.Drawing.Size(826, 617)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnRace)
         Me.Controls.Add(Me.lblCalifornia)
@@ -281,5 +270,4 @@ Partial Class Horse_Race
     Friend WithEvents PicBarbaro As System.Windows.Forms.PictureBox
     Friend WithEvents PicSecertariat As System.Windows.Forms.PictureBox
     Friend WithEvents PicKonasKannon As System.Windows.Forms.PictureBox
-    Friend WithEvents btnPlaceBet As System.Windows.Forms.Button
 End Class

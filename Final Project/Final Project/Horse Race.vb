@@ -52,7 +52,7 @@
         Me.Close()
     End Sub
 
-    Private Sub btnPlaceBet_Click(sender As Object, e As EventArgs) Handles btnPlaceBet.Click
+    Private Sub btnPlaceBet_Click(sender As Object, e As EventArgs)
         Dim box = New Racing_Money
         box.Show()
     End Sub
